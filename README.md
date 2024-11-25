@@ -1,6 +1,6 @@
-https://developer.mozilla.org/en-US/docs/Web/CSS/min
-
 ## max-width?
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/min
 
 **as-is**
 
@@ -38,5 +38,15 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/min
 ```css
 .container {
   width: clamp(400px, 50vw, 800px);
+}
+```
+
+## text gradient
+
+```css
+.gradient-text {
+  color: transparent;
+  background: linear-gradient(to right, red, blue);
+  background-clip: text;
 }
 ```
